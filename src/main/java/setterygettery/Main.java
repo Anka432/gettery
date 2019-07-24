@@ -18,5 +18,9 @@ public class Main {
         user.setPassword("pass");
 
         System.out.println(user.getPassword());
+
+        user.setLogin("nowy admin");
+
+        System.out.println(user.getLogin());
     }
 }
